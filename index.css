@@ -1,5 +1,12 @@
-h1 {
-    display: inline-block;
+body{
+    margin: 0 auto;
+}
+
+nav header {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 2%;
 }
 .container {
     display: flex;
@@ -8,7 +15,7 @@ h1 {
 }
 #main-doc {
     width: 78%;
-    height: 5420px;
+    height: auto;
     
     margin-left: 22%;
     
@@ -56,10 +63,8 @@ h1 {
     margin-left: -8px;
     padding-top: 0.2em;
 }
-#navbar header h1{
-    margin-left: 1.4em;
-}
 
 #navbar li {
     list-style-type: none;
+    margin-left: -2%;
 }
